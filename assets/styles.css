@@ -1,0 +1,11 @@
+/* assets/styles.css some basic styling */
+body {
+    background-color: white;
+}
+
+h1 {
+    color: #007bff; 
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+

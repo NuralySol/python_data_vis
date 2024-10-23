@@ -51,7 +51,7 @@ print(
 )
 
 # Plot as a pie-chart top five item_name by revenue (we want see to our bestsellers)
-#! From now on always pass in always type of every outpute to see what data type it is.
+#! From now on always pass in always type of every output to see what data type it is.
 top_five_items_bestsellers = df.groupby("item_name")["order_price"].sum().nlargest(5)
 plt.pie(
     top_five_items_bestsellers,
