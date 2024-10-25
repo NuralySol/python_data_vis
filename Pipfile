@@ -11,6 +11,7 @@ matplotlib = "*"
 scikit-learn = "*"
 dash = "*"
 dash-bootstrap-components = "*"
+seaborn = "*"
 
 [dev-packages]
 
